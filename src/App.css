@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(29,161,242);
+  color: white;
+}
+
+.nav-links{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.HelpCenter{
+background-color:White ;
+border: 50px white solid;
+}
+
+li{
+  list-style: none;
+}
+
+button{
+  background-color:lightblue;
+}
+.Hy{
+  text-align:justify;
+  background-color:white;
+  color:black;
+  margin:0;
+}
+.list{
+  text-align: center;
+  background-color:white;
+  color: black;
+} 
+
+.search1{
+  float: left;
+  color:white
+}
+
+.search2{
+  color:white;
+}
+
+html{
+background-color: rgb(29,161,242);
+}
+
+ a:link, a:visited {
+  background-color: darkgray;
+  color: black;
+  border: 2px solid blue;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+} 
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(29,161,242);
+  /* position: fixed; */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
